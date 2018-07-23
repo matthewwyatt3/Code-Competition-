@@ -1,0 +1,17 @@
+/* navbar */
+.nav-pills {
+  text-align: right;
+}
+
+.nav {
+  background-color: rgb(215, 159, 34);
+}
+
+.nav-pills > li.active > a{
+    background-color: rgb(17, 23, 172);
+}
+
+/* body section */
+.col-md-4 {
+  border: solid 1px red;
+}
