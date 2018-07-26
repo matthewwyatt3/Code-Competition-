@@ -1,10 +1,26 @@
+/* global styles */
+h1,h2,h3 {
+  font-family: "Arvo", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Arvo", sans-serif;
+  font-size: 16px;
+}
+
 /* navbar */
-.nav-pills {
-  text-align: right;
+.news-icon {
+  height: 60px;
+  padding-left: 20px;
 }
 
 .nav {
   background-color: rgb(215, 159, 34);
+}
+
+.nav-pills {
+  padding-top: 10px;
 }
 
 .nav-pills > li.active > a{
@@ -12,6 +28,135 @@
 }
 
 /* body section */
-.col-md-4 {
-  border: solid 1px red;
+body {
+  background-image: url("../img/news-background.jpg");
+  background-attachment: fixed;
+  position: relative;
+
+}
+
+.headline-photo {
+  padding-top: 60px;
+  height: 320px;
+  width: 450px;
+}
+
+.top-headline {
+  background: rgba(255, 255, 255, 0.90);
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.section2 {
+  border-top: solid 2px black;
+  background: rgba(255, 255, 255, 0.90);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.refugees {
+  /* padding-left: 30px; */
+  height: 200px;
+}
+
+.lotto {
+  /* padding-left: 50px; */
+  height: 200px;
+}
+
+.lotto-section {
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+}
+
+.peace {
+  /* padding-left: 20px; */
+  height: 200px;
+}
+
+.section3 {
+  background: rgba(255, 255, 255, 0.90);
+  padding-top: 40px;
+  border-top: solid 2px black;
+}
+
+.cyber {
+  /* padding-left: 30px; */
+  height: 200px;
+}
+
+.barricade {
+  height: 200px;
+  /* padding-left: 30px; */
+}
+
+.barricade-section {
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+}
+
+.trump {
+  height: 200px;
+}
+
+@media (max-width:970px) {
+  .refugees-section, .peace-section, .cyber-section, .trump-section, .lotto-section, .barricade-section {
+    border-top: solid 2px black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .lotto-section {
+    border-left: none;
+    border-right: none;
+  }
+  .barricade-section {
+    border-left: none;
+    border-right: none
+  }
+}
+
+/* about.html */
+.jumbotron {
+  background: rgba(255, 255, 255, 0.90);
+  padding: 60px;
+  margin-top: 30px;
+}
+
+.construction {
+  width: 100%;
+}
+
+.footer-other {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+/* contact */
+
+
+
+/* footer */
+.footer-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgb(215, 159, 34);
+}
+
+.fab {
+   font-size: 30px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.fab :hover {
+  font-size: 40px;
+}
+
+.footer-social a {
+  color: rgb(17, 23, 172);
+}
+
+.footer-social a:hover {
+  color: white;
 }
